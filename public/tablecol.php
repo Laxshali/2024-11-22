@@ -44,5 +44,5 @@ function showTable1($tname,$connect,$colnames){
         die($e->getMessage());
     }
     }
-    showTable1("student",$connect,["name","course"]);
+    showTable1("student",$connect,["name","city"]);
 ?>
