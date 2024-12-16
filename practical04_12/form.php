@@ -10,7 +10,7 @@
     require_once 'dbconf.php';
     require_once 'myfunc.php';
 	
-	PrintTable ("students",$connect);
+	PrintTable ("student",$connect);
     ?>
 	
 	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
