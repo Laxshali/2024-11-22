@@ -15,10 +15,7 @@ function GetBookList($tableName,$connect,$colnames)
 			echo "<table border='1'>";
 			$col = mysqli_fetch_fields($result);
             $cols=sizeof($colnames);
-            //echo "<tr>";
-            //echo "<th colspan=$cols>$tableName</th>";
-           // echo "</tr>";
-			//echo "<tr>";
+            
 			foreach ($col as $value) {
 				echo "<td>$value->name</td>";
 			}

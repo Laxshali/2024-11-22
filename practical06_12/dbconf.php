@@ -5,7 +5,7 @@ define('PASSWORD', 'mariadb');
 define('DBNAME', 'book');
 try {
 	$connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
-	if (!$connect) {
+	if (!$connect) {o
 		die("connection failed".mysqli_connect_error());
 	} 
 	else {
